@@ -9,6 +9,6 @@ Either you are confused, lost, or both. This repo is for my personal use to sync
 
 ### Slide into my DMs
 
-- [LinkedIn][https://www.linkedin.com/in/cxrlosgxrcia/]
+[LinkedIn][https://www.linkedin.com/in/cxrlosgxrcia/]
 
  

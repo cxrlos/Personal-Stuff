@@ -18,7 +18,7 @@ alias open='xdg-open'
 # Damn, starship is really niceee
 eval "$(starship init zsh)"
 
-# Promptt
+# Prompt
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Vim syntax, cuz emacs syntax sux
