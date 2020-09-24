@@ -18,6 +18,7 @@ set incsearch
 set backspace=indent,eol,start
 set number relativenumber
 set nu rnu
+set encoding=UTF-8
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey

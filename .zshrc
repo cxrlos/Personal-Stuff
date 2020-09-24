@@ -23,3 +23,6 @@ eval "$(starship init zsh)"
 
 # Vim syntax, cuz emacs syntax sux
 set -o vi
+
+# Screenfetch prompt
+screenfetch
