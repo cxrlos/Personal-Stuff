@@ -37,6 +37,7 @@ Plug 'alvan/vim-closetag'
 Plug 'vim-latex/vim-latex'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dbeniamine/cheat.sh-vim'
 call plug#end()
 
 set laststatus=2
