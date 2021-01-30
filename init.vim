@@ -19,6 +19,7 @@ set backspace=indent,eol,start
 set number relativenumber
 set nu rnu
 set encoding=UTF-8
+set clipboard=unnamed,unnamedplus
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -90,6 +91,12 @@ map! <C-B> <ESC>YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
 augroup WrapLineInTeXFile
     autocmd!
     autocmd FileType tex setlocal wrap
+augroup END
+
+" Wraps md files 
+augroup WrapLineInTeXFile
+    autocmd!
+    autocmd FileType md setlocal wrap
 augroup END
 
 inoremap (; (<CR>);<C-c>O
