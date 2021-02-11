@@ -1,7 +1,7 @@
 <h1 align="center">Personal Repository</h1>
 <p align="center">Carlos Garcia </p>
 
-![God-Awful-Image](/home/cxrlos/Documents/Personal_Repo/God-Awful-Image.png)
+![God-Awful-Image](God-Awful-Image.png)
 
 ## Hi! 
 
