@@ -1,0 +1,93 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage{hyperref}
+  \usepackage{dirtytalk}
+\fi
+
+\definecolor{VividPurple}{HTML}{105da1}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{CARLOS GARC\'IA}
+\tagline{Ingeniero en Tecnolog\'ias Computacionales, Tecnológico de Monterrey en Santa Fe}
+\photo{2.5cm}{photo}
+\personalinfo{
+    \email{}
+    \phone{}
+  \location{Ciudad de M\'exico, M\'exico}
+  
+   \linkedin{www.linkedin.com/in/cxrlosgxrcia}
+   \github{github.com/cxrlos}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{EXPERIENCIA LABORAL} 
+\cvevent{ Tecnol\'ogico de Monterrey, Santa Fe}{Asistente Investigador de Deep Learning}{Ago 2020 - Actualidad}{Ciudad de M\'exico. M\'exico}
+\begin{itemize}
+\item Programaci\'on de redes neuronales profundas en un escenario pr\'actico.
+\item Uso de librer\'ias de Python para el etiquetado de datos en facturas.
+\end{itemize}
+
+\cvevent{}{Embajador Tec}{Ago 2019 - Jul 2020}{Ciudad de M\'exico. M\'exico}
+\begin{itemize}
+\item Representaci\'on del Tecnológico de Monterrey ante externos.
+\item Compart\'i mi trayectoria en la instituci\'on a personas y familias interesadas y les brind\'e acompa\~namiento en su proceso de admisi\'on.
+\end{itemize}
+\divider
+
+\cvevent{ Federación de Estudiantes del Tecnológico de Monterrey}{Vicepresidente, Comit\'e Ejecutivo}{Ago 2019 - Dic 2020}{Ciudad de M\'exico. M\'exico}
+\begin{itemize}
+\item Fung\'i como intermediario en la relaci\'on entre los estudiantes y directores del campus.
+\item Trabaj\'e en el dise\~no y desarrollo de proyectos de gran escala (patrocinios, sostenibilidad, innovaci\'on, impacto social, etc.) enfocados a mejorar e incrementar la vivencia estudiantil.
+\end{itemize}
+
+\cvevent{}{Presidente, Sociedad de Alumnos de Tecnolog\'ias de la Informaci\'on}{Ago 2018 - Jul 2019}{Ciudad de M\'exico. M\'exico}
+\begin{itemize}
+\item Fung\'i como intermediario en la relaci\'on entre los estudiantes y directores de departamento y carrera.
+\item Particip\'e como l\'ider de grupo en varios eventos, los m\'as destacables siendo EarthX Mexico y EarthX Dallas.
+\end{itemize}
+\divider
+
+\cvevent{ Rancho San Mart\'in}{Representante de Ventas, Distribuci\'on y Atenci\'on al Cliente}{Nov 2017 - May 2020}{Ciudad de M\'exico. M\'exico}
+\begin{itemize}
+\item Comenc\'e una red de distribuci\'on y ventas para cosm\'eticos org\'anicos.
+\end{itemize}
+\divider
+
+\cvevent{ Anagram International}{Process Engineering Summer Intern}{Jun 2018 - Jul 2018}{Eden Prairie, Minnesota}
+\begin{itemize}
+\item Auditor\'ias en el proceso de fabricaci\'on de globos, enfocado al reportaje de merma.
+\item Desarroll\'e un reporte comprensivo en el que se reflej\'o el impacto financiero generado por el mal reporte de merma.
+\end{itemize}
+\divider
+
+\cvevent{ Amscan}{Becario de Verano}{Jun 2017 - Jul 2017}{Ciudad de M\'exico. M\'exico}
+\begin{itemize}
+\item Desarrollo de contenido medi\'atico para cat\'alogos de venta.
+\item Co-desarrollo en proyectos de venta de gran impacto.
+\end{itemize}
+\divider
+
+\clearpage
+
+\end{document}

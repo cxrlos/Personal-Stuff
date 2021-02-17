@@ -1,0 +1,94 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage{hyperref}
+  \usepackage{dirtytalk}
+\fi
+
+\definecolor{VividPurple}{HTML}{105da1}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{CARLOS GARC\'IA}
+\tagline{Senior Computer Engineering Student at Tecnológico de Monterrey, Santa Fe}
+\photo{2.5cm}{photo}
+\personalinfo{
+    \email{}
+    \phone{}
+  \location{Mexico City, Mexico}
+  
+   \linkedin{www.linkedin.com/in/cxrlosgxrcia}
+   \github{github.com/cxrlos}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{WORK EXPERIENCE}
+
+\cvevent{ Tecnol\'ogico de Monterrey, Santa Fe}{Deep Learning Research Assistant}{Aug 2020 - Present}{Mexico City, Mexico}
+\begin{itemize}
+\item Deep Neural Network programming in a practical scenario.
+\item Use of Python NLP libraries in an invoice labeling scenario.
+\end{itemize}
+
+\cvevent{}{Student Ambassador}{Aug 2019 - Jul 2020}{Mexico City, Mexico}
+\begin{itemize}
+\item Represented Tecnológico de Monterrey at off-campus events.
+\item Shared my experience with interested applicants and their families and helped them through their admission process.
+\end{itemize}
+\divider
+
+\cvevent{ Federación de Estudiantes del Tecnológico de Monterrey}{Vice President, Executive Committee}{Aug 2019 - Dec 2020}{Mexico City, Mexico}
+\begin{itemize}
+\item Mediated the relationship between campus students and the board of directors.
+\item Designed and developed large scale projects (sponsorships, sustainable-related, innovation linkage, social impact, improvement projects, etc.) focused on the well-being of all the campus community.
+\end{itemize}
+
+\cvevent{}{President, Computer Engineering Student Society}{Aug 2018 - Jul 2019}{Mexico City, Mexico}
+\begin{itemize}
+\item Mediated the relation between IT students and directors.
+\item Participated as a group leader in events such as EarthX Mexico and EarthX Dallas.
+\end{itemize}
+\divider
+
+\cvevent{ Rancho San Mart\'in}{Product Sales, Distribution and Customer Support Representative}{Nov 2017 - May 2020}{Mexico City, Mexico}
+\begin{itemize}
+\item Started a sales and distribution network for natural and organic cosmetics.
+\end{itemize}
+\divider
+
+\cvevent{ Anagram International}{Process Engineering Summer Intern}{Jun 2018 - Jul 2018}{Eden Prairie, Minnesota}
+\begin{itemize}
+\item Audited balloon-making processes focusing on discarded materials.
+\item Developed a comprehensive analysis to reflect the financial impact of the unreported amounts of discarded material.
+\end{itemize}
+\divider
+
+\cvevent{ Amscan}{Summer Intern}{Jun 2017 - Jul 2017}{Mexico City, Mexico}
+\begin{itemize}
+\item Developed multimedia content related to catalogs.
+\item Co-development large scale sales projects.
+\end{itemize}
+\divider
+
+\clearpage
+
+\end{document}
